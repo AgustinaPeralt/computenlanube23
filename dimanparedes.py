@@ -22,12 +22,15 @@ while True:
         num2 = float(input("Ingrese el segundo número: "))
 
         # Mostrar opciones de operación
-        print("Opciones de operación:")
-        print("1. Suma")
-        print("2. Resta")
-        print("3. Multiplicación")
-        print("4. División")
-        print("5. Salir")
+        opciones = """
+            Opciones de operación:
+            1. Suma
+            2. Resta
+            3. Multiplicación
+            4. División
+            5. Salir
+        """
+        print(opciones)
 
         # Solicitar al usuario que elija una opción
         opcion = int(input("Seleccione una opción (1/2/3/4/5): "))
